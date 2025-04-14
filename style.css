@@ -1,0 +1,558 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Tangerine);
+}
+
+/* ..........................body....................... */
+body {
+    background-color: #FAFAFA;
+}
+
+/* ..........................MAIN contact................ */
+.main-bar-heading,
+.plass {
+    background-color: #5C6BC0;
+    color: aliceblue;
+}
+
+.fa-whatsapp {
+    color: #7CB342;
+    margin: 0 1vw;
+}
+
+.fa-envelope {
+    color: red;
+    margin: 0 1vw;
+}
+
+.plass a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1vw;
+}
+
+/* ..........................main bar heading................ */
+.main-bar-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #5C6BC0;
+}
+
+.main-bar-heading ul li a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.main-bar-heading ul li,
+.plass {
+    display: inline-block;
+    padding: 1vw;
+    flex-wrap: wrap;
+}
+
+/* ..........................main bar heading hover................. */
+.main-bar-heading ul li :hover {
+    color: #FFEB3B;
+}
+
+/* .............................................. */
+.second-bar {
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.logo-school {
+    mix-blend-mode: color-burn;
+    width: 10vw;
+}
+
+.child-bar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 1vw;
+    margin: 20px;
+}
+
+.child-bar ul li {
+    display: inline-block;
+}
+
+.fa-calendar-days,
+.fa-graduation-cap,
+.fa-address-card {
+    color: #5C6BC0;
+    margin: 1vw;
+}
+
+.online-admission {
+    margin: 1vw;
+}
+
+/* ............................. */
+.child-bar ul li a:hover {
+    color: #5C6BC0;
+    border-bottom: 2px solid #5C6BC0;
+}
+
+/* ...................aside pointer.......... */
+.aside-pointer a {
+    text-decoration: none;
+    color: black;
+    padding: 1vw;
+}
+
+.aside-pointer a:hover {
+    color: #5C6BC0;
+}
+
+.aside-pointer {
+    display: -webkit-box;
+}
+
+.aside-pointer p {
+    padding-left: 1vw;
+}
+
+/* ...............image keyframe slider........ */
+.image-slider-keyframe {
+    animation: imgslider 6s infinite;
+    margin: 2%;
+    width: 97%;
+    height: 60vh;
+
+}
+
+@media (max-width:760px) {
+    .image-slider-keyframe {
+        animation: imgslider 6s infinite;
+        margin: 2%;
+        width: 97%;
+        height: 40vh;
+    }
+}
+
+@keyframes imgslider {
+    0% {
+        background-image: url(images/classroom.png);
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(images/teacher.png);
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(images/playing.png);
+        background-size: cover;
+    }
+}
+
+/* ............................. */
+.image-slider-keyframe h2,
+h4 {
+    text-align: center;
+    color: #FFF8E1;
+    font-weight: bolder;
+    font-size: large;
+    padding-top: 10px;
+}
+
+.read-info a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    background-color: #FFEB3B;
+    padding: 4px;
+}
+
+.read-info a:hover {
+    background-color: black;
+    color: #FFEB3B;
+}
+
+/* ........................functions............. */
+.function ul li a {
+    text-decoration: none;
+    color: #FFF8E1;
+    font-weight: bold;
+    padding: 1vw;
+    justify-content: space-between;
+    margin: 1vh;
+    flex-wrap: wrap;
+}
+
+.function {
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+
+}
+
+.function ul li {
+    display: inline-flex;
+}
+
+@media (max-width:760px) {
+    .function ul {
+        display: none;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 0vh;
+
+    }
+
+    .function ul li a {
+        color: black;
+    }
+}
+
+.function ul li a i {
+    color: black;
+    margin: 1vw;
+
+}
+
+/*...........................function edit........... */
+.fa-book,
+.fa-chart-line,
+.fa-person-running,
+.fa-shield-halved,
+.fa-hands-holding-circle {
+    color: black;
+    background-color: #FFEB3B;
+    border: 2px solid #FFEB3B;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+.fa-book:hover {
+    color: #FFEB3B;
+    background-color: black;
+}
+
+.fa-chart-line:hover {
+    color: #FFEB3B;
+    background-color: black;
+}
+
+.fa-person-running:hover {
+    color: #FFEB3B;
+    background-color: black;
+}
+
+.fa-shield-halved:hover {
+    color: #FFEB3B;
+    background-color: black;
+}
+
+.fa-hands-holding-circle:hover {
+    color: #FFEB3B;
+    background-color: black;
+}
+
+/* .....................article......... */
+.article h2 {
+    color: #5C6BC0;
+    padding: 3vw;
+}
+
+.article p {
+    color: grey;
+    width: 50vw;
+    padding: 0 3vw;
+    display: inline-flex;
+    float: left;
+}
+
+@media (max-width:760px) {
+    .article p {
+        text-align: center;
+        width: auto;
+        padding: 3vw;
+        display: block;
+    }
+
+    .article h2 {
+        text-align: center;
+    }
+}
+
+/* .............................. */
+.teacher-image-cut-profile {
+    width: 40vh;
+    padding: 0 4vw;
+}
+
+@media (max-width:760px) {
+    .teacher-image-cut-profile {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* news and events edit */
+.news-event {
+    width: 100%;
+    height: 15vh;
+    background-color: #5C6BC0;
+    text-align: center;
+}
+
+.news-event h2 {
+    color: #FFF8E1;
+
+}
+
+@media (max-width:760px) {
+    .news-event {
+        height: 10vh;
+        color: #7CB342;
+
+    }
+}
+
+/* .................footer............ */
+footer {
+    text-align: center;
+    background-color: #5C6BC0;
+    padding-bottom: 3vh;
+}
+
+footer h5 a {
+    text-decoration: none;
+    color: #FFEB3B;
+}
+
+footer h5 {
+    color: #FAFAFA;
+}
+
+/* ........................................................ */
+/* .1...Co- and Extracurricular Activities................. */
+/* ........................................................ */
+/* .2........Events........................................ */
+/* .............................2 href files............... */
+/* ........................................................ */
+
+.p {
+    color: grey;
+}
+
+.event-edit-main-div {
+    text-align: center;
+    padding: 5vh;
+}
+
+.event-edit-main-div img {
+    width: 40vw;
+
+}
+
+.event-edit-main-div h3 {
+    color: #5C6BC0;
+    padding: 9px;
+}
+
+@media (max-width:760px) {
+    .event-edit-main-div img {
+        width: 60vw;
+    }
+
+    .event-edit-main-div p {
+        padding: 0%;
+        width: 100%;
+    }
+}
+
+/* ....................education........................... */
+/* ....................Education Programmes................ */
+/* ....................Read more........................... */
+/* ........................................................ */
+/* ........................................................ */
+/* .......................................3 href files..... */
+.education-page-info {
+    text-align: center;
+    padding: 4vw;
+}
+
+.education-page-info h3 {
+    color: #5C6BC0;
+}
+
+.education-page-info p {
+    color: black;
+}
+
+@media (max-width:760px) {
+    .education-page-info {
+        padding: 0;
+    }
+}
+
+.def-of-edu {
+    text-align: center;
+    padding: 4vw;
+}
+
+.def-of-edu a {
+    text-decoration: none;
+}
+
+.def-of-edu a img {
+    width: 40vw;
+}
+
+.def-of-edu a h4 {
+    color: #5C6BC0;
+    padding: 3vh;
+}
+
+.def-of-edu a h4:hover {
+    color: #FFEB3B;
+}
+
+@media (max-width:760px) {
+    .def-of-edu a img {
+        width: 60vw;
+    }
+}
+
+/* primary school */
+/* for multi pages */
+.main-page-of-primary {
+    text-align: center;
+    padding: 4vh;
+}
+
+.main-page-of-primary p {
+    color: grey;
+    padding: 3vw;
+}
+
+.main-page-of-primary h3 {
+    color: #5C6BC0;
+    padding: 2vw;
+}
+
+.main-page-of-primary h3:hover {
+    color: rgb(186, 174, 70);
+}
+
+.main-page-of-primary img {
+    width: 40vw;
+    padding-top: 2vh;
+}
+
+@media (max-width:760px) {
+    .main-page-of-primary img {
+        width: 60vw;
+
+    }
+}
+
+/* ........................................................ */
+/* .1...About Us........................................... */
+/* ........................................................ */
+/* ........................................................ */
+/* .............................1 href files............... */
+/* ........................................................ */
+.about-profile {
+    text-align: center;
+    padding: 4vw;
+}
+
+.about-profile img {
+    width: 30vw;
+    border-radius: 50%;
+}
+
+@media (max-width:760px) {
+    .about-profile img {
+        width: 40vw;
+    }
+}
+
+.about-profile h2 {
+    color: #5C6BC0;
+    padding: 1vw;
+}
+
+.about-profile h4 {
+    color: black;
+}
+
+.about-profile p {
+    color: grey;
+    padding: 1vw;
+}
+
+/* ........................................................ */
+/* .1...security........................................... */
+/* ........................................................ */
+/* ........................................................ */
+/* .............................1 href files............... */
+/* ........................................................ */
+.protection {
+    text-align: center;
+    padding: 4vw;
+}
+
+.protection img {
+    width: 30vw;
+    border-radius: 50%;
+}
+
+@media(max-width:760px) {
+    .protection img {
+        width: 40vw;
+    }
+}
+
+.protection h2 {
+    color: #5C6BC0;
+    padding: 1vw;
+}
+
+.protection h4 {
+    color: black;
+    padding: 1vw;
+}
+
+.protection p {
+    color: grey;
+    padding: 1vw;
+}
+
+/* ........................................................ */
+/* .1...Scholorships....................................... */
+/* ........................................................ */
+/* ........................................................ */
+/* .............................1 href files............... */
+/* .............may be two href files...................... */
+.scholorship-info {
+    text-align: center;
+    padding: 4vw;
+}
+
+.scholorship-info i {
+    color: black;
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+.scholorship-info h2 {
+    color: black;
+}
+
+.scholorship-info p {
+    color: grey;
+}
