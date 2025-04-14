@@ -1,2 +1,2 @@
 # mhs
-Moeez High School Gojra.
+Moeez High School Gojra..
